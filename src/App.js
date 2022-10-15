@@ -15,7 +15,7 @@ const Header = () => {
 const App = () => {
   return (
     <div className="App">      
-      <Header />
+      <Header title="Olá, React!!" age={58} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
