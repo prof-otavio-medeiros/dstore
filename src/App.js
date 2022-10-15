@@ -13,6 +13,7 @@ const Header = () => {
 */
 
 const App = () => {
+  console.log('App');
   return (
     <div className="App">      
       <Header title="Olá, React!!" age={58} />
